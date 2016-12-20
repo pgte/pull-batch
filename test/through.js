@@ -44,9 +44,7 @@ maxLengths.forEach(function (maxLength) {
         pull.collect(function (err, collected) {
           t.error(err)
           t.true(Array.isArray(collected))
-          collected.forEach(function (elem, index) {
-            t.equal(elem, index)
-          })
+          t.deepEqual(collected, input, 'collected is equal to input')
           t.end()
         })
       )
