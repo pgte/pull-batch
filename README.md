@@ -21,3 +21,7 @@ pull(
   sink
 )
 ```
+
+# License
+
+ISC
