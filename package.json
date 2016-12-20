@@ -1,6 +1,6 @@
 {
   "name": "pull-batch",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Transform arrays of objects into arrays with a maximum length",
   "main": "index.js",
   "scripts": {
